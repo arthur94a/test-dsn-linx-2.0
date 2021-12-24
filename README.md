@@ -34,10 +34,9 @@ just kidding =]
 ### for run project:
 <p>install Node.js</p>
 <p>npm install</p>
-<p>run in terminal into project repo:</p>
-<p>npm run serve</p>
-<br><br>
+<p>npm run serve (or use live-server)</p>
 <p>open in browser on localhost:3000</p>
+<br><br>
 
 ### for use SASS your need:
 <p>npm run scss</p>
