@@ -1,0 +1,40 @@
+//reset
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input,
+select {
+    outline: 0;
+}
+
+//recycle
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap');
+$font: 'Open Sans', sans-serif;
+$font-btn: 'Roboto', sans-serif;
+
+//variable-colors
+$full-light: #ffffff;
+$all-black: #000000;
+$grey: #414141;
+$grey-soft: #E5E5E5;
+$purple: #422755;
+$green: #00A868;
+
+//styles
+$font-size-price: 18px;
+$font-size-price-m: 0px;
+
+$font-size-oldprice: 13px;
+$font-size-oldprice-m: 0px;
+
+$font-size-installment: 10px;
+$font-size-installment-m: 0px;

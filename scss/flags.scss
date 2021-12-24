@@ -1,0 +1,45 @@
+@import "global.scss";
+
+.flags {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 9;
+
+    span {
+        margin-bottom: 5px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+    }
+}
+
+.free-shipping {
+    &.true {
+        content: 'Frete Grátis';
+        display: block;
+        background-image: url("../assets/flag-free.png");
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 88px;
+        color: $full-light;
+    }
+}
+
+
+
+.flag-discount {
+    display: block;
+    background-image: url("../assets/flag-discount.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 69px;
+    color: $full-light;
+    font-weight: bold;
+
+    &.whitout {
+        display: none;
+    }
+}
+
+    
