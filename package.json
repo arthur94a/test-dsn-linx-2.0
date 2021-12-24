@@ -6,10 +6,12 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
-    "node-sass": "^7.0.s0"
+    "node-sass": "^7.0.0",
+    "serve": "^13.0.2"
   },
   "devDependencies": {},
   "scripts": {
+    "serve": "node serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "sass --watch scss:css"
   },
